@@ -1,23 +1,26 @@
 import React from 'react';
 
 const OneThroughTen = () => {
-  // Challenge 1
+  // Challenge 1: Print Numbers from 1 to 10
   const printNumbers = () => {
-    let numbers = '';
+    let num1 = '';
     for (let i = 1; i <= 10; i++) {
-      numbers += i + (i < 10 ? ', ' : ''); // Adds a comma except after the last number
+      num1 += i + (i < 10 ? ', ' : ''); // Adds a comma except after the last number
     }
-    return numbers;
+    return num1;
   };
 
-  const numbers = printNumbers();
+  const num1 = printNumbers();
 
-  // Challenge 2
+  // Challenge 2: Print Odd Numbers Less Than 100
+  const printNums2 = () => {
+
+  }
 
   return (
     <div>
       <h3>Challenge 1: Print Numbers from 1 to 10</h3>
-      <p>{numbers}</p>
+      <p>{num1}</p>
 
       <h4>printNumbers Function Code:</h4>
       <pre>
