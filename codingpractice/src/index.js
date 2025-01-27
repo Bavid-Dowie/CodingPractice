@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import FirstProblem from './components/FirstProblem';
-import SecondProblem from './components/SecondProblem';
+import OneThroughTen from './components/OneThroughTen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <FirstProblem />
-    <SecondProblem />
+    <OneThroughTen />
   </React.StrictMode>
 );

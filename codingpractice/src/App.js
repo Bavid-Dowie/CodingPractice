@@ -1,4 +1,3 @@
-import FirstProblem from './components/FirstProblem.js'
 import './App.css';
 
 function App() {
