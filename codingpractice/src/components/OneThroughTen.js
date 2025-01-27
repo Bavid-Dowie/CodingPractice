@@ -14,8 +14,18 @@ const OneThroughTen = () => {
 
   // Challenge 2: Print Odd Numbers Less Than 100
   const printNums2 = () => {
+    let num2 = '';
+    for (let i = 1; i < 100; i += 2) {
+      num2 += i + (i < 100 ? ', ' : '');
+    }
+    return num2;
+  };
 
-  }
+  const num2 = printNums2();
+
+  // Challenge 3: Print Multiplication Table with 7
+
+  // Challenge 4: Print All Multiplication Tables (1 to 10)
 
   return (
     <div>
@@ -34,12 +44,22 @@ const OneThroughTen = () => {
       </pre>
 
       <h3>Challenge 2: Print Odd Numbers Less Than 100</h3>
+      <p>{num2}</p>
+      <h4>Answer Code:</h4>
+      <pre>
+        {`  const printNums2 = () => {
+    let num2 = '';
+    for (let i = 1; i < 100; i += 2) {
+      num2 += i + (i < 100 ? ', ' : '');
+    }
+    return num2;
+  };`}
+      </pre>
+
+      <h3>Challenge 3: Print Multiplication Table with 7 (safe to just look up, the question makes not sense)</h3>
       <h4>Answer Code:</h4>
 
-      <h3>Challenge 3: Print Multiplication Table with 7</h3>
-      <h4>Answer Code:</h4>
-
-      <h3>Challenge 4: Print All Multiplication Tables (1 to 10)</h3>
+      <h3>Challenge 4: Print All Multiplication Tables (1 to 10) - this one also makes no sense</h3>
       <h4>Answer Code:</h4>
 
       <h3>Challenge 5: Calculate Sum of Numbers from 1 to 10</h3>
